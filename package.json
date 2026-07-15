@@ -1,7 +1,8 @@
 {
 	"name": "@neykoor/node-cache",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Minimal in-memory TTL cache, API-compatible subset of @cacheable/node-cache used by BaileysX",
+	"type": "module",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
@@ -21,7 +22,7 @@
 		"baileys",
 		"baileysx"
 	],
-	"author": "Julio (Neykoor)",
+	"author": "Neykoor",
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
