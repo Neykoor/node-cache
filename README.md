@@ -1,3 +1,5 @@
+<img src="./assets/banner.png" alt="@neykoor/node-cache" width="100%" />
+
 # @neykoor/node-cache
 
 Cache TTL en memoria, subconjunto reducido de la API de `@cacheable/node-cache`, con solo lo que usa BaileysX. Sin dependencias externas.
