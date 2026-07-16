@@ -99,6 +99,18 @@ export class NodeCache<T = unknown> {
 		return true
 	}
 
+	public keys(): string[] {
+		const now = Date.now()
+		const result: string[] = []
+
+		for (const [key, entry] of this.store.entries()) {
+			if (entry.expiresAt > 0 && entry.expiresAt < now) continue
+			result.push(key)
+		}
+
+		return result
+	}
+
 	public del(key: string | number): number {
 		const keyValue = this.formatKey(key)
 
