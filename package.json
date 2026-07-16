@@ -1,6 +1,6 @@
 {
 	"name": "@neykoor/node-cache",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Minimal in-memory TTL cache, API-compatible subset of @cacheable/node-cache used by BaileysX",
 	"type": "module",
 	"main": "dist/index.js",
